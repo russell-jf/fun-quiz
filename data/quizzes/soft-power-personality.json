@@ -1,0 +1,171 @@
+{
+  "slug": "soft-power-personality",
+  "scoring": "dimension",
+  "dimensions": ["gentle", "sharp", "steady"],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "朋友纠结要不要换工作，你更常怎么帮？",
+      "options": [
+        { "id": "a", "text": "先陪对方把感受说清楚", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "帮忙拆利弊，指出关键风险", "scores": { "gentle": 0, "sharp": 2, "steady": 1 } },
+        { "id": "c", "text": "给一个可执行的小步骤清单", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "尊重对方节奏，只在被问时给意见", "scores": { "gentle": 2, "sharp": 0, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "第一次参加不太熟的聚会，你通常？",
+      "options": [
+        { "id": "a", "text": "先找角落观察，再慢慢融入", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "主动找话题，快速破冰", "scores": { "gentle": 1, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "跟熟人待着，稳定输出存在感", "scores": { "gentle": 1, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "看场子气氛，决定热场还是倾听", "scores": { "gentle": 1, "sharp": 1, "steady": 1 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "做决定时，你最信赖的依据是？",
+      "options": [
+        { "id": "a", "text": "身体感：紧不紧张、舒不舒服", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "信息差：谁给的理由更站得住", "scores": { "gentle": 0, "sharp": 2, "steady": 1 } },
+        { "id": "c", "text": "可复盘：有没有稳定可验证的路径", "scores": { "gentle": 0, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "平衡感：多方都能接受就行", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "被人当面提出不同意见时，你更像？",
+      "options": [
+        { "id": "a", "text": "先缓和气氛，再慢慢说自己的点", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "当场对焦问题，把逻辑讲清楚", "scores": { "gentle": 0, "sharp": 2, "steady": 1 } },
+        { "id": "c", "text": "记下分歧，回去整理后再回应", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "确认对方诉求，再找折中方案", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "你的朋友最常因为什么依赖你？",
+      "options": [
+        { "id": "a", "text": "被理解和安慰", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "被点醒、给到新角度", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "靠谱，交代的事能落地", "scores": { "gentle": 0, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "气氛好，待着就安心", "scores": { "gentle": 2, "sharp": 0, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "学习新技能时，你偏好？",
+      "options": [
+        { "id": "a", "text": "先跟练，边做边找到感觉", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "先搞懂原理，再高效练习", "scores": { "gentle": 0, "sharp": 2, "steady": 1 } },
+        { "id": "c", "text": "定计划打卡，稳步推进", "scores": { "gentle": 0, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "小目标验证，及时调整方法", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "群聊里出现冷场，你会？",
+      "options": [
+        { "id": "a", "text": "丢一个温和话题把温度拉回来", "scores": { "gentle": 2, "sharp": 1, "steady": 0 } },
+        { "id": "b", "text": "抛一个有趣观点激活讨论", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "不强行热场，该安静就安静", "scores": { "gentle": 1, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "看是谁主导，再决定要不要接", "scores": { "gentle": 1, "sharp": 1, "steady": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "你更希望别人如何评价你？",
+      "options": [
+        { "id": "a", "text": "温柔、好相处", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "聪明、有见地", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "稳定、靠得住", "scores": { "gentle": 0, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "分寸感好、让人舒服", "scores": { "gentle": 2, "sharp": 1, "steady": 1 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "面对突发状况，你的优势通常是？",
+      "options": [
+        { "id": "a", "text": "安抚情绪，让场面不崩", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "快速抓住关键变量", "scores": { "gentle": 0, "sharp": 2, "steady": 1 } },
+        { "id": "c", "text": "按优先级把事情稳住", "scores": { "gentle": 0, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "协调大家分工继续推进", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "休假日你更享受的状态是？",
+      "options": [
+        { "id": "a", "text": "慢节奏，给感官充充电", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "吸收新信息，头脑保持锋利", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "把生活琐事处理顺，心里踏实", "scores": { "gentle": 1, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "一半休息一半轻度计划", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "表达不同意见时，你最在意？",
+      "options": [
+        { "id": "a", "text": "别伤到关系", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "别把重点说糊", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "别留下后患，说完能执行", "scores": { "gentle": 0, "sharp": 1, "steady": 2 } },
+        { "id": "d", "text": "双方都有台阶可下", "scores": { "gentle": 2, "sharp": 1, "steady": 1 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "你觉得自己的魅力更来自？",
+      "options": [
+        { "id": "a", "text": "让人放松的温度", "scores": { "gentle": 2, "sharp": 0, "steady": 1 } },
+        { "id": "b", "text": "一针见血的洞察", "scores": { "gentle": 0, "sharp": 2, "steady": 0 } },
+        { "id": "c", "text": "长期一致的可靠感", "scores": { "gentle": 0, "sharp": 0, "steady": 2 } },
+        { "id": "d", "text": "温和但有边界的分寸", "scores": { "gentle": 1, "sharp": 1, "steady": 2 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "gentle-lead",
+      "dimension": "gentle",
+      "title": "温柔场人格",
+      "subtitle": "你的软实力是「让人愿意靠近」",
+      "summary": "你擅长营造安全感与情绪缓冲，是团队和朋友圈里的温度来源。",
+      "description": "你不靠强势压场，而是用理解、节奏和体贴影响环境。这种魅力持久且耐看。提醒自己：温柔不等于无限迁就，适时表达边界会让温度更可持续。",
+      "tips": [
+        "练习用一句话说清自己的需求",
+        "把「我可以帮你」改成「我能帮到这一步」",
+        "选择同样珍惜你感受的人深交"
+      ],
+      "shareText": "我在「趣味测评」测出软实力人格是「温柔场」——靠近我，会先放松下来。"
+    },
+    {
+      "id": "sharp-lead",
+      "dimension": "sharp",
+      "title": "机敏场人格",
+      "subtitle": "你的软实力是「把复杂变清楚」",
+      "summary": "你反应快、观察细，常能在关键时刻给出清醒角度。",
+      "description": "你善于抓住重点，也愿意把模糊问题讲明白。这种魅力让人觉得「有你在就方向清楚」。若表达过锐，可先对齐情绪再输出观点，锋芒会更有说服力。",
+      "tips": [
+        "提建议前先确认对方想听解法还是共鸣",
+        "用提问代替结论，减少压迫感",
+        "给自己留白时间，避免一直处于分析模式"
+      ],
+      "shareText": "我在「趣味测评」测出软实力人格是「机敏场」——清醒、锋利，又能把事说透。"
+    },
+    {
+      "id": "steady-lead",
+      "dimension": "steady",
+      "title": "稳定场人格",
+      "subtitle": "你的软实力是「让局面站得住」",
+      "summary": "你节奏稳、执行强，别人会把关键事自然交给你。",
+      "description": "你不一定最热闹，但常常是最能托底的人。稳定感是稀缺魅力。注意别把所有责任都扛在自己身上，适度分配任务，稳定才会变成团队能力而不是个人消耗。",
+      "tips": [
+        "学会公开自己的负荷，而不是默默接住一切",
+        "在关系里多分享过程，不只给结果",
+        "安排无产出的休息，保护长期稳定"
+      ],
+      "shareText": "我在「趣味测评」测出软实力人格是「稳定场」——不吵不闹，却很让人安心。"
+    }
+  ]
+}

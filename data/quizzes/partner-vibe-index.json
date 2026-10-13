@@ -1,0 +1,171 @@
+{
+  "slug": "partner-vibe-index",
+  "scoring": "dimension",
+  "dimensions": ["sync", "care", "repair"],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "对方突然说「我们聊聊」，你的第一反应更接近？",
+      "options": [
+        { "id": "a", "text": "放下手头事，认真听完再说", "scores": { "sync": 2, "care": 2, "repair": 1 } },
+        { "id": "b", "text": "先问发生了什么，再决定怎么接", "scores": { "sync": 2, "care": 1, "repair": 1 } },
+        { "id": "c", "text": "有点紧张，担心是不是出问题了", "scores": { "sync": 0, "care": 1, "repair": 2 } },
+        { "id": "d", "text": "想先忙完再聊，避免聊一半分心", "scores": { "sync": 1, "care": 0, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "约会当天对方临时要改时间，你会？",
+      "options": [
+        { "id": "a", "text": "先确认对方是否顺心，再一起重排", "scores": { "sync": 2, "care": 2, "repair": 1 } },
+        { "id": "b", "text": "有点失落，但愿意给一个新方案", "scores": { "sync": 1, "care": 1, "repair": 2 } },
+        { "id": "c", "text": "直接问原因，搞清楚再决定", "scores": { "sync": 2, "care": 0, "repair": 1 } },
+        { "id": "d", "text": "觉得被放鸽子，情绪会挂一会儿", "scores": { "sync": 0, "care": 1, "repair": 2 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "你们意见不一致时，最常出现的画面是？",
+      "options": [
+        { "id": "a", "text": "先各自说完，再找共同点", "scores": { "sync": 2, "care": 1, "repair": 2 } },
+        { "id": "b", "text": "一方先退一步，把气氛稳住", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "先冷一下，过后再重新开聊", "scores": { "sync": 0, "care": 1, "repair": 2 } },
+        { "id": "d", "text": "争到谁更有理，不轻易放下", "scores": { "sync": 1, "care": 0, "repair": 0 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "对方加班到很晚，你会怎么表达在意？",
+      "options": [
+        { "id": "a", "text": "发一句「到了告诉我」，并准备夜宵建议", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "b", "text": "问需不需要语音陪伴到回家", "scores": { "sync": 2, "care": 2, "repair": 0 } },
+        { "id": "c", "text": "不多打扰，等对方主动报平安", "scores": { "sync": 1, "care": 0, "repair": 1 } },
+        { "id": "d", "text": "提醒对方别太拼，也关心自己身体", "scores": { "sync": 1, "care": 2, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "一条消息已读不回超过两小时，你更可能？",
+      "options": [
+        { "id": "a", "text": "默认对方在忙，稍后自然接上", "scores": { "sync": 2, "care": 1, "repair": 1 } },
+        { "id": "b", "text": "补一句「不急，有空回就好」", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "心里会嘀咕，等对方解释", "scores": { "sync": 0, "care": 1, "repair": 2 } },
+        { "id": "d", "text": "直接再发一条确认是否看到", "scores": { "sync": 1, "care": 0, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "周末两个人待在一起，你更享受？",
+      "options": [
+        { "id": "a", "text": "一起做一件小事，比如做饭或散步", "scores": { "sync": 2, "care": 2, "repair": 0 } },
+        { "id": "b", "text": "各玩各的，但待在同一空间", "scores": { "sync": 2, "care": 1, "repair": 0 } },
+        { "id": "c", "text": "深度聊天，把最近的心事摊开", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "d", "text": "把行程排满，一起向外探索", "scores": { "sync": 1, "care": 1, "repair": 0 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "争吵后空气有点僵，你通常怎么破冰？",
+      "options": [
+        { "id": "a", "text": "先承认自己语气冲的部分", "scores": { "sync": 1, "care": 1, "repair": 2 } },
+        { "id": "b", "text": "用轻松话题把气氛拉回来", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "写清楚感受，再约时间认真谈", "scores": { "sync": 2, "care": 1, "repair": 2 } },
+        { "id": "d", "text": "等对方先开口，自己再接", "scores": { "sync": 0, "care": 0, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "对方分享一件开心事，你最自然的回应是？",
+      "options": [
+        { "id": "a", "text": "跟着兴奋，追问细节", "scores": { "sync": 2, "care": 2, "repair": 0 } },
+        { "id": "b", "text": "夸对方做得好，并记住这件事", "scores": { "sync": 1, "care": 2, "repair": 0 } },
+        { "id": "c", "text": "笑一笑，再转到自己的近况", "scores": { "sync": 1, "care": 0, "repair": 0 } },
+        { "id": "d", "text": "先听完，再一起想怎么庆祝", "scores": { "sync": 2, "care": 1, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "你觉得「默契」最重要的标志是？",
+      "options": [
+        { "id": "a", "text": "不用说太多也能理解彼此意思", "scores": { "sync": 2, "care": 1, "repair": 0 } },
+        { "id": "b", "text": "冲突后还能较快回到并肩状态", "scores": { "sync": 1, "care": 1, "repair": 2 } },
+        { "id": "c", "text": "愿意为对方调整自己的节奏", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "d", "text": "大事小事都习惯一起商量", "scores": { "sync": 2, "care": 1, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "对方情绪低落但不想细说，你会？",
+      "options": [
+        { "id": "a", "text": "陪着，不逼问，留一个出口", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "b", "text": "轻声问「需不需要我做点什么」", "scores": { "sync": 2, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "想尽快找出问题并解决", "scores": { "sync": 1, "care": 0, "repair": 2 } },
+        { "id": "d", "text": "给对方空间，自己先去做别的事", "scores": { "sync": 1, "care": 0, "repair": 0 } }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "做共同决定时（旅行、开销、见家长），你更倾向？",
+      "options": [
+        { "id": "a", "text": "先对齐原则，再分工推进", "scores": { "sync": 2, "care": 1, "repair": 1 } },
+        { "id": "b", "text": "谁更在意谁多提方案，另一人把关", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "能拖就拖，等气氛刚好再定", "scores": { "sync": 0, "care": 1, "repair": 1 } },
+        { "id": "d", "text": "列优缺点，用理性投票感做选择", "scores": { "sync": 2, "care": 0, "repair": 1 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "你希望另一半怎么理解你的「需要」？",
+      "options": [
+        { "id": "a", "text": "听得懂我说的，也愿意同步行动", "scores": { "sync": 2, "care": 1, "repair": 1 } },
+        { "id": "b", "text": "在我低落时主动靠近一点", "scores": { "sync": 1, "care": 2, "repair": 1 } },
+        { "id": "c", "text": "吵完后记得修复，不装作没事", "scores": { "sync": 1, "care": 1, "repair": 2 } },
+        { "id": "d", "text": "给我稳定感，也给我独立空间", "scores": { "sync": 2, "care": 1, "repair": 0 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "sync-lead",
+      "dimension": "sync",
+      "title": "同频协作型",
+      "subtitle": "你们擅长把两个人的节奏调成一首歌",
+      "summary": "你更看重沟通对齐与共同推进，默契往往来自「说清楚 + 一起做」。",
+      "description": "在相处里，你习惯先理解对方在想什么，再决定怎么配合。这种风格让关系推进更顺，也容易在决策时减少误会。需要留意的是：有时过度追求同步，会忽略彼此短暂的不同步情绪。",
+      "tips": [
+        "每周留一次「不对齐也没关系」的轻松闲聊",
+        "重要决定前，先各自写三个偏好再合并",
+        "对方反应慢半拍时，先确认而不是催促"
+      ],
+      "shareText": "我在「趣味测评」测出伴侣默契是「同频协作型」——擅长对齐节奏，一起往前走。"
+    },
+    {
+      "id": "care-lead",
+      "dimension": "care",
+      "title": "细腻回应型",
+      "subtitle": "你把在意放在看得见的照顾里",
+      "summary": "你更擅长用陪伴、安慰和体贴细节建立安全感，关系温度通常不低。",
+      "description": "你对情绪信号比较敏感，也愿意在对方需要时靠前一步。这种默契让人感到被接住。若长期只输出照顾、缺少被回应，也可能悄悄疲惫，记得把「我也需要」说出口。",
+      "tips": [
+        "把关心从猜测改成一句明确提问",
+        "给自己设定「充电时间」，避免一直在线",
+        "让对方也练习接住你的小情绪"
+      ],
+      "shareText": "我在「趣味测评」测出伴侣默契是「细腻回应型」——擅长用温柔把关系捂热。"
+    },
+    {
+      "id": "repair-lead",
+      "dimension": "repair",
+      "title": "修复回血型",
+      "subtitle": "吵得动，也修得回来，才是真默契",
+      "summary": "你更重视冲突后的重连能力，默契体现在「能谈开、能和好」。",
+      "description": "关系难免有摩擦，你并不逃避问题，更在意事后如何回到并肩。这种能力很珍贵。建议在修复时既谈感受也谈具体约定，避免只靠道歉却不改节奏。",
+      "tips": [
+        "争吵冷静后，用「我感受到…」代替翻旧账",
+        "和好时补一个小行动，比只说没事更有效",
+        "为高频冲突点准备一条可执行的新规则"
+      ],
+      "shareText": "我在「趣味测评」测出伴侣默契是「修复回血型」——会吵，但更会修好。"
+    }
+  ]
+}

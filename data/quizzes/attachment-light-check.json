@@ -1,0 +1,171 @@
+{
+  "slug": "attachment-light-check",
+  "scoring": "dimension",
+  "dimensions": ["secure", "anxious", "avoidant"],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "亲密关系变好时，你最真实的感受是？",
+      "options": [
+        { "id": "a", "text": "开心，也相信它能继续好好走", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "很幸福，但又怕突然变差", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "享受，同时想给自己留退路", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "高兴，但会提醒自己别太投入", "scores": { "secure": 1, "anxious": 1, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "对方回消息变慢，你会？",
+      "options": [
+        { "id": "a", "text": "默认有事，稍后再自然接上", "scores": { "secure": 2, "anxious": 0, "avoidant": 1 } },
+        { "id": "b", "text": "反复看手机，心里开始排练原因", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "也把回复放慢，保持对等距离", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "有点在意，但能忍住不追问", "scores": { "secure": 1, "anxious": 1, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "需要向对方求助时，你更常？",
+      "options": [
+        { "id": "a", "text": "直接说需要什么帮助", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "绕着说，观察对方是否主动发现", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "尽量自己解决，不想添麻烦", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "先试一次，不行再开口", "scores": { "secure": 1, "anxious": 0, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "吵架后的夜晚，你脑子里更可能？",
+      "options": [
+        { "id": "a", "text": "想着明天怎么好好谈开", "scores": { "secure": 2, "anxious": 1, "avoidant": 0 } },
+        { "id": "b", "text": "反复回想对方每句话的含义", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "想独处冷静，暂时不想联系", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "又委屈又想和好，睡不好", "scores": { "secure": 0, "anxious": 2, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "对方提出想更进一步（见家长/同居），你？",
+      "options": [
+        { "id": "a", "text": "认真评估，觉得合适就推进", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "开心到想立刻确定关系更稳", "scores": { "secure": 1, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "先感到压力，想再观望一阵", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "表面答应讨论，内心仍犹豫", "scores": { "secure": 0, "anxious": 1, "avoidant": 2 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "你更怕关系里出现哪种情况？",
+      "options": [
+        { "id": "a", "text": "沟通中断，问题一直悬着", "scores": { "secure": 2, "anxious": 1, "avoidant": 0 } },
+        { "id": "b", "text": "被忽视、被排后", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "被过度绑定，失去自己的空间", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "情绪失控，场面难以收场", "scores": { "secure": 1, "anxious": 1, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "对方夸你时，你的内在反应？",
+      "options": [
+        { "id": "a", "text": "高兴收下，也愿意回夸", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "开心，同时想确认是不是真心", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "有点不自在，想把话题转走", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "表面淡定，心里默默记着", "scores": { "secure": 1, "anxious": 1, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "连续几天高强度相处后，你需要？",
+      "options": [
+        { "id": "a", "text": "正常休息就好，不额外拉开", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "还想继续黏一会儿确认连接", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "明确要一段独处回血", "scores": { "secure": 1, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "表面陪着，内心已经想撤离", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "你怎样让对方知道你在意？",
+      "options": [
+        { "id": "a", "text": "直接说，也用行动配合", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "频繁确认、分享日常细节", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "默默做好事，不太直说", "scores": { "secure": 1, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "看对方反应再决定表达多少", "scores": { "secure": 0, "anxious": 1, "avoidant": 1 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "关系出现不确定信号时，你最先做的是？",
+      "options": [
+        { "id": "a", "text": "约时间把话说清楚", "scores": { "secure": 2, "anxious": 1, "avoidant": 0 } },
+        { "id": "b", "text": "加大联系密度，寻求安心", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "先拉开距离，观察对方动作", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "自己消化，尽量装作没事", "scores": { "secure": 0, "anxious": 1, "avoidant": 2 } }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "你理想中的亲密距离是？",
+      "options": [
+        { "id": "a", "text": "靠近且自由，两边都舒服", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "越紧密越好，确认感要足", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "有连接，但保留清晰边界", "scores": { "secure": 1, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "看阶段调整，怕被固定住", "scores": { "secure": 0, "anxious": 1, "avoidant": 2 } }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "如果用一句话形容你的依恋倾向？",
+      "options": [
+        { "id": "a", "text": "我可以靠近，也可以安心做自己", "scores": { "secure": 2, "anxious": 0, "avoidant": 0 } },
+        { "id": "b", "text": "我很在乎，所以容易患得患失", "scores": { "secure": 0, "anxious": 2, "avoidant": 0 } },
+        { "id": "c", "text": "我需要空间，太近会想逃", "scores": { "secure": 0, "anxious": 0, "avoidant": 2 } },
+        { "id": "d", "text": "我想靠近，又怕靠太近受伤", "scores": { "secure": 0, "anxious": 2, "avoidant": 1 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "secure-lead",
+      "dimension": "secure",
+      "title": "安稳靠近型",
+      "subtitle": "你更敢表达，也更能信任连接",
+      "summary": "你在亲密关系里相对平衡：既能靠近，也能保持自我。",
+      "description": "你通常愿意沟通需求，也较能承受短暂的不确定。这不代表从不焦虑，而是焦虑来了你更可能选择对话而不是内耗。继续保持清晰表达，关系会更轻松。",
+      "tips": [
+        "把安全感经验分享给伴侣，形成共同语言",
+        "在冲突中坚持「对事不对人」",
+        "偶尔主动示弱，让关系更有温度"
+      ],
+      "shareText": "我在「趣味测评」测出依恋倾向是「安稳靠近型」——能亲密，也能自在。"
+    },
+    {
+      "id": "anxious-lead",
+      "dimension": "anxious",
+      "title": "确认渴求型",
+      "subtitle": "你很会爱人，也很容易被不确定牵动",
+      "summary": "你重视连接质量，信号模糊时容易放大担忧。",
+      "description": "你的在意是真诚的，只是有时会通过频繁确认来换取安心。可以练习把「我是不是不被爱」改写成「我现在需要一句明确回应」，让需求更可被接住。",
+      "tips": [
+        "设定「先等 30 分钟再追问」的缓冲",
+        "用具体请求代替试探和暗示",
+        "培养一人也能回血的小习惯"
+      ],
+      "shareText": "我在「趣味测评」测出依恋倾向是「确认渴求型」——在意很深，也想被稳稳接住。"
+    },
+    {
+      "id": "avoidant-lead",
+      "dimension": "avoidant",
+      "title": "边界护航型",
+      "subtitle": "你珍惜关系，也更怕失去自主",
+      "summary": "靠近会让你感受到压力，独处往往是你的恢复方式。",
+      "description": "你不是不在乎，而是在乎时也想保住自己的空间与节奏。适当把「我需要独处」说清楚，比突然抽离更不容易伤害关系。小步表达情绪，会让边界更被理解。",
+      "tips": [
+        "提前告知独处需求，减少对方被冷落感",
+        "每周做一次低压力的主动分享",
+        "冲突时先说「我想冷静 20 分钟再聊」"
+      ],
+      "shareText": "我在「趣味测评」测出依恋倾向是「边界护航型」——靠近可以，但请给我呼吸感。"
+    }
+  ]
+}

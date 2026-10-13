@@ -1,0 +1,23 @@
+[
+  {
+    "id": "personality",
+    "name": "人格测试",
+    "description": "用轻松题目看看你的性格底色、社交风格和相处节奏。",
+    "accent": "from-violet-400/80 to-fuchsia-300/70",
+    "icon": "sparkles"
+  },
+  {
+    "id": "love",
+    "name": "恋爱测试",
+    "description": "从相处细节出发，测测你的恋爱模式与默契指数。",
+    "accent": "from-rose-400/80 to-pink-300/70",
+    "icon": "heart"
+  },
+  {
+    "id": "mental-age",
+    "name": "心理年龄",
+    "description": "几分钟快速捕捉你的心态年龄，看看是少年感还是稳重派。",
+    "accent": "from-purple-300/80 to-amber-200/70",
+    "icon": "clock"
+  }
+]

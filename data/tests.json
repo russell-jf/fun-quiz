@@ -1,0 +1,149 @@
+[
+  {
+    "id": "test-husband-score",
+    "slug": "husband-score-check",
+    "title": "卖老公：多少分合格？",
+    "subtitle": "五维打分，最短板决定续约还是劝退（趣味）",
+    "description": "从体贴、听劝、家务、仪式感、靠谱五维给老公打分，按最短板给出昧良心人设。五维都过线才算合格续约，否则对着短板开喷——纯属玩梗，不构成任何真实建议。",
+    "categoryId": "love",
+    "coverGradient": "from-[#ffc6d9] via-[#f0c4ff] to-[#c9b6ff]",
+    "estimatedMinutes": 4,
+    "questionCount": 12,
+    "tags": ["卖老公", "五维打分", "离婚梗"],
+    "highlights": [
+      "五维评分：体贴 / 听劝 / 家务 / 仪式感 / 靠谱",
+      "最短板决定人设，文案故意差异化好分享",
+      "五维都过线才续约，否则趣味黄牌劝退"
+    ],
+    "suitableFor": ["想卖老公或吐槽的人", "情侣互测找话题", "喜欢合格线玩梗的社交用户"],
+    "status": "available",
+    "featured": true,
+    "popularity": 100
+  },
+  {
+    "id": "test-partner-vibe",
+    "slug": "partner-vibe-index",
+    "title": "伴侣默契指数",
+    "subtitle": "你们是同频共振，还是各说各话？",
+    "description": "通过日常相处里的小选择，评估你在亲密关系中的沟通节奏、情绪回应方式和默契潜力。适合想快速了解自己恋爱风格的人。",
+    "categoryId": "love",
+    "coverGradient": "from-[#f7c6de] via-[#e8c4f5] to-[#d7c6ff]",
+    "estimatedMinutes": 4,
+    "questionCount": 12,
+    "tags": ["恋爱", "默契", "相处"],
+    "highlights": [
+      "覆盖沟通、陪伴与冲突处理三个维度",
+      "结果用通俗语言解释，不堆术语",
+      "可截图分享给朋友或另一半"
+    ],
+    "suitableFor": ["想了解自己恋爱模式的人", "刚开始认真相处的情侣", "喜欢轻松测评的社交用户"],
+    "status": "available",
+    "featured": true,
+    "popularity": 98
+  },
+  {
+    "id": "test-soft-personality",
+    "slug": "soft-power-personality",
+    "title": "软实力人格画像",
+    "subtitle": "你的魅力是温柔型、机敏型还是稳定型？",
+    "description": "从决策习惯、社交边界和情绪表达出发，帮你画出一份轻盈可读的人格侧写。没有标准答案，重点是认识自己。",
+    "categoryId": "personality",
+    "coverGradient": "from-[#ddd0ff] via-[#f0d4ff] to-[#ffe4f1]",
+    "estimatedMinutes": 5,
+    "questionCount": 12,
+    "tags": ["人格", "自我认知", "社交"],
+    "highlights": [
+      "题目短、选项直观，手机上更好答",
+      "强调优势与盲区，而不是贴标签",
+      "适合作为朋友圈趣味分享素材"
+    ],
+    "suitableFor": ["想快速认识自己的人", "喜欢人格类内容的读者", "需要轻松破冰话题的人"],
+    "status": "available",
+    "featured": true,
+    "popularity": 95
+  },
+  {
+    "id": "test-mental-spark",
+    "slug": "mental-age-spark",
+    "title": "心理年龄火花测",
+    "subtitle": "你的内心更像 18 还是 38？",
+    "description": "用生活态度、兴趣偏好和压力应对方式，估算你当前的心理年龄倾向。结果偏趣味向，可当作周末自测小游戏。",
+    "categoryId": "mental-age",
+    "coverGradient": "from-[#ffe8c8] via-[#f5d0ef] to-[#d9c8ff]",
+    "estimatedMinutes": 3,
+    "questionCount": 10,
+    "tags": ["心理年龄", "趣味", "心态"],
+    "highlights": [
+      "三分钟左右即可完成",
+      "结果按年龄段给出轻松解读",
+      "适合短视频引流后的快速体验"
+    ],
+    "suitableFor": ["喜欢短测评的用户", "想找周末话题的朋友", "对心态年龄好奇的人"],
+    "status": "available",
+    "featured": true,
+    "popularity": 92
+  },
+  {
+    "id": "test-attachment-light",
+    "slug": "attachment-light-check",
+    "title": "依恋风格轻测",
+    "subtitle": "靠近时你会更安心，还是更容易紧绷？",
+    "description": "围绕亲近、独立与安全感三个主题，帮你识别更贴近自己的依恋倾向。内容偏日常场景，读起来不沉重。",
+    "categoryId": "love",
+    "coverGradient": "from-[#ffd6e8] via-[#f3d4ff] to-[#e4dcff]",
+    "estimatedMinutes": 4,
+    "questionCount": 12,
+    "tags": ["恋爱", "安全感", "依恋"],
+    "highlights": [
+      "聚焦日常互动，不做复杂诊断",
+      "帮助你看见关系中的习惯反应",
+      "结果页提供可实践的小建议方向"
+    ],
+    "suitableFor": ["正在谈恋爱的人", "复盘感情经历的人", "关注亲密关系成长的人"],
+    "status": "available",
+    "featured": false,
+    "popularity": 88
+  },
+  {
+    "id": "test-social-battery",
+    "slug": "social-battery-type",
+    "title": "社交电量类型",
+    "subtitle": "一场局之后，你是充电还是掉电？",
+    "description": "通过聚会偏好、回复节奏和独处需求，判断你的社交电量类型，并给出更舒服的相处建议。",
+    "categoryId": "personality",
+    "coverGradient": "from-[#e5d4ff] via-[#f8d8ee] to-[#fff1da]",
+    "estimatedMinutes": 3,
+    "questionCount": 10,
+    "tags": ["人格", "社交", "边界"],
+    "highlights": [
+      "区分热闹型、慢热型和蓄电型",
+      "题目贴近社媒与线下社交场景",
+      "适合作为朋友互测话题"
+    ],
+    "suitableFor": ["社恐/社牛边界模糊的人", "职场新人", "想优化社交节奏的人"],
+    "status": "available",
+    "featured": false,
+    "popularity": 84
+  },
+  {
+    "id": "test-weekend-mindset",
+    "slug": "weekend-mindset-age",
+    "title": "周末心态年龄",
+    "subtitle": "你的理想周末，暴露了怎样的内心年龄？",
+    "description": "从休息方式、消费偏好到计划习惯，捕捉你在放松状态下的心理年龄画像。",
+    "categoryId": "mental-age",
+    "coverGradient": "from-[#ffe3f0] via-[#efe0ff] to-[#dff0ff]",
+    "estimatedMinutes": 3,
+    "questionCount": 9,
+    "tags": ["心理年龄", "生活方式", "周末"],
+    "highlights": [
+      "题目全部围绕轻松生活场景",
+      "结果强调趣味共鸣，不做评判",
+      "便于在社交平台二次传播"
+    ],
+    "suitableFor": ["喜欢生活向内容的用户", "想找轻松话题的朋友", "短视频引流访客"],
+    "status": "coming_soon",
+    "featured": false,
+    "popularity": 70
+  }
+]

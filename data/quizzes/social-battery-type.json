@@ -1,0 +1,151 @@
+{
+  "slug": "social-battery-type",
+  "scoring": "dimension",
+  "dimensions": ["lively", "warm", "recharge"],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "一场 3 小时聚会结束后，你通常？",
+      "options": [
+        { "id": "a", "text": "还想续摊，电量不降反升", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "开心但有点累，回家慢慢回味", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "急需静音模式，谁都别找我", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "看人群密度，熟人局还能撑", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "微信未读涨到两位数，你的策略是？",
+      "options": [
+        { "id": "a", "text": "见缝插针回，聊天也是乐趣", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "先回重要的，其他稍后认真回", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "开启「延迟回复」，保护大脑", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "语音通话解决，少打字拉扯", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "你更喜欢哪种社交形式？",
+      "options": [
+        { "id": "a", "text": "多人热闹局，信息量越大越好", "scores": { "lively": 2, "warm": 0, "recharge": 0 } },
+        { "id": "b", "text": "三两人深聊，质量高于数量", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "线上交流为主，线下少而精", "scores": { "lively": 0, "warm": 1, "recharge": 2 } },
+        { "id": "d", "text": "有主题的活动局，不纯闲聊", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "临时被拉去见新朋友，你会？",
+      "options": [
+        { "id": "a", "text": "兴奋，认识新人超有趣", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "可以，但希望有熟人在场", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "压力上升，想找理由缩短时间", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "先了解场合，再决定投入多少", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "你回血效率最高的方式是？",
+      "options": [
+        { "id": "a", "text": "再和喜欢的人玩一轮", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "和信任的人轻度陪伴", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "彻底独处：洗澡、散步、发呆", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "做点手作或收拾，让心静下来", "scores": { "lively": 0, "warm": 1, "recharge": 2 } }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "在群里被 @ 征意见，你通常？",
+      "options": [
+        { "id": "a", "text": "很快接住，顺便带动气氛", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "认真想清楚再回复", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "能旁观就旁观，少承担群责任", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "给简短有效建议，不展开闲聊", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "连续社事后的第二天，你更需要？",
+      "options": [
+        { "id": "a", "text": "再来点轻度社交保持热度", "scores": { "lively": 2, "warm": 0, "recharge": 0 } },
+        { "id": "b", "text": "只回重要消息，其他延后", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "社交静音日，拒绝额外邀约", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "户外走走，用身体把情绪放下", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "你如何看待「礼貌性社交」？",
+      "options": [
+        { "id": "a", "text": "也能聊出乐趣，关键在态度", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "可以维持，但更珍惜真关系", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "很耗电，能减少就减少", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "看场合，职场需要就配合", "scores": { "lively": 1, "warm": 1, "recharge": 1 } }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "朋友突然连麦，你当下更可能？",
+      "options": [
+        { "id": "a", "text": "接！有人陪伴刚刚好", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "问一句「聊多久」，再决定", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "改成文字，语音太实时", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "看自己电量，低电就改天", "scores": { "lively": 1, "warm": 1, "recharge": 2 } }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "你希望别人怎么理解你的社交节奏？",
+      "options": [
+        { "id": "a", "text": "我活跃是真心喜欢连接", "scores": { "lively": 2, "warm": 1, "recharge": 0 } },
+        { "id": "b", "text": "我慢热，但熟悉后很暖", "scores": { "lively": 0, "warm": 2, "recharge": 1 } },
+        { "id": "c", "text": "我不回不代表不在乎，我在充电", "scores": { "lively": 0, "warm": 0, "recharge": 2 } },
+        { "id": "d", "text": "给我弹性，我会在状态好时出现", "scores": { "lively": 1, "warm": 1, "recharge": 2 } }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "lively-lead",
+      "dimension": "lively",
+      "title": "热闹充电型",
+      "subtitle": "人越多，你越容易亮起来",
+      "summary": "社交对你更像能量来源，而不是单纯消耗。",
+      "description": "你在互动中容易获得刺激与快乐，也常成为带动气氛的人。注意识别「真喜欢」和「害怕停下」的差别，适度留白能让热闹更持久。",
+      "tips": [
+        "每周保留半日无社交空白",
+        "把深度关系与热闹局分开经营",
+        "电量下降时及时离场，不必硬撑到底"
+      ],
+      "shareText": "我在「趣味测评」测出社交电量是「热闹充电型」——局越多，我越有光。"
+    },
+    {
+      "id": "warm-lead",
+      "dimension": "warm",
+      "title": "慢热续航型",
+      "subtitle": "你不是社恐，你是选择性发光",
+      "summary": "你更吃「质量型社交」，熟人局续航明显更强。",
+      "description": "你愿意连接，但不喜欢无效消耗。一旦关系建立，你会很稳很暖。给自己合理解释「为什么不想去」的权利，社交边界会更清晰。",
+      "tips": [
+        "提前问清场合与人数，降低未知消耗",
+        "用短时高质量见面替代长时间应付",
+        "对重要的人主动约，而不是只被动响应"
+      ],
+      "shareText": "我在「趣味测评」测出社交电量是「慢热续航型」——不吵，但很耐处。"
+    },
+    {
+      "id": "recharge-lead",
+      "dimension": "recharge",
+      "title": "独处回血型",
+      "subtitle": "你的充电器插在安静里",
+      "summary": "社交后你需要明确的恢复时间，独处是刚需不是冷漠。",
+      "description": "你可以把能量给出去，但必须按时收回。把充电需求说清楚，反而更容易被理解。选择低刺激、高安全感的社交形式，你会轻松很多。",
+      "tips": [
+        "把「社后静音时段」写进日程",
+        "优先一对一或小规模聚会",
+        "用状态回复代替已读不回：今晚充电中"
+      ],
+      "shareText": "我在「趣味测评」测出社交电量是「独处回血型」——不是不爱你们，是电池要先插上。"
+    }
+  ]
+}
