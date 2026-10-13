@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s｜趣味测评",
   },
   description:
-    "面向移动端的趣味测评网站。首推卖老公多少分合格，另有人格、恋爱与心理年龄测试，轻松几分钟可分享。",
+    "面向移动端的趣味测评网站。卖老公多少分合格，另有人格、恋爱与心理年龄测试，轻松几分钟可分享。",
   keywords: [
     "趣味测评",
     "卖老公",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "趣味测评｜卖老公合格线",
     description:
-      "首推卖老公五维打分：短板劝退、全过线才续约（趣味）。还有人格、恋爱、心理年龄等轻松自测。",
+      "卖老公五维打分：短板劝退、全过线才续约（趣味）。还有人格、恋爱、心理年龄等轻松自测。",
     locale: "zh_CN",
     type: "website",
     siteName: "趣味测评",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "趣味测评｜卖老公合格线",
     description:
-      "面向移动端用户的趣味测评站，首推卖老公五维打分，覆盖人格、恋爱与心理年龄测试。",
+      "面向移动端用户的趣味测评站，卖老公五维打分，覆盖人格、恋爱与心理年龄测试。",
   },
   robots: {
     index: true,
